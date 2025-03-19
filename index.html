@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Aoba, bão???</h1>
+        <p>Este é meu primeiro site com HTML porra!</p>
+
+        <!-- Seção do botão de mudança de cor -->
+        <div class="section">
+            <button id="meuBotao">Clique Aqui</button>
+        </div>
+
+        <!-- Seção do campo de texto -->
+        <div class="section">
+            <p>Digite algo e envie:</p>
+            <input type="text" id="meuInput" placeholder="Digite algo...">
+            <button id="botaoEnviar">Enviar</button>
+            <p id="mensagem"></p>
+        </div>
+
+        <!-- Seção do contador de cliques -->
+        <div class="section">
+            <p>Clique no botão e veja a contagem:</p>
+            <button id="botaoContador">Clique para contar</button>
+            <p id="contador">Cliques: 0</p>
+        </div>
+
+        <!-- Seção do temporizador -->
+        <div class="section">
+            <p>Tempo na página:</p>
+            <p id="temporizador">0 segundos</p>
+        </div>
+
+        <!-- Seção do temporizador regressivo -->
+        <div class="section">
+            <p>Contagem regressiva:</p>
+            <p id="temporizadorRegressivo">10 segundos</p>
+            <button id="reiniciarTemporizador">Reiniciar Contagem</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
